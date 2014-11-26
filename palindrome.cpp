@@ -63,11 +63,11 @@ int main()
 
     for(int i = 0; i < numCases ; i++)
     {
-        string number,palindrome;
+        string number;
 
         cin >> number;
 
-		cout << findNextPalin (number) << endl;
+	cout << findNextPalin (number) << endl;
 
 	}
 }
